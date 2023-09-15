@@ -20,7 +20,7 @@ public class Typecast {
         int myInt = 23;
         double myDouble = myInt; // -> 23.0 , converts the int into a double
         
-        System.out.println(myInt);        
+        System.out.println(myInt);      
         System.out.println(myDouble);
 
     };
