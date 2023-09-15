@@ -7,11 +7,11 @@ public class Variables {
         int age = 21; // single variable declaration
         int x = 2, y =3, z = 4; // multiple variable declaration
 
-        String name = "Nkwi Cyril";
+        String name = "John Doe ";
         System.out.println(name + " is " + age + " years old.");
         System.out.println(x+y+z);
-        String firstName = "Nkwi ";
-        String lastName = "Cyril";
+        String firstName = "John ";
+        String lastName = "Doe";
         String finalName = firstName + lastName;
 
         System.out.println(finalName);
@@ -25,6 +25,10 @@ public class Variables {
         double newNum = 2e2;
         // 2 times 10 raised to the power 2 (2 * 10^2)
         // raising a number to the power 10 or using the exponent (e)
+
         System.out.println(newNum);
+        char letter = 'A'; 
+        // a character enclosed in single quotes
+        System.out.println(name + letter + ".");
     }
 }
