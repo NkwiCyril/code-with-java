@@ -16,5 +16,11 @@ public class Variables {
 
         System.out.println(finalName);
 
+        double number = 3.34;
+        float floatingNum = 3.34f;
+
+        System.out.println((int)(number * floatingNum)); 
+        // type casting the value gotten into an integer value
+ 
     }
 }
