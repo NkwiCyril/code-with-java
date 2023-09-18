@@ -1,5 +1,6 @@
 package basics;
 
+
 public class Conditions {
     public static void main(String[] args) {
         int a = 2, b = 3;
@@ -13,8 +14,7 @@ public class Conditions {
         String check = (a < b) ? "Greater" : "lesser";
         // ternary if...else condition (short hand)
         System.out.println(check);
-        System.out.println();
-
+        
         int day = 2;
         switch (day) {
             case 1:
