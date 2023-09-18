@@ -41,7 +41,9 @@ public class Looping {
 		for (String string : cars) { 
 			// this loop says:
 				// for each string encountered upon looping in the cars array, print out that string/car
-			System.out.println(string);
+				if (string == "volkswagen") break;
+				else if (string == "toyota") continue;
+				else System.out.println(string);
 		}
 	}
 }
