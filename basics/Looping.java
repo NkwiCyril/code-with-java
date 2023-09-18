@@ -32,5 +32,16 @@ public class Looping {
 				}
 			}
 		}
+
+		// the for-each looping mechanism
+		// it used excusively to loop through arrays (meaning it is the best and most efficient way)
+
+		String[] cars = {"benz", "ferrari", "toyota","volkswagen"};
+
+		for (String string : cars) { 
+			// this loop says:
+				// for each string encountered upon looping in the cars array, print out that string/car
+			System.out.println(string);
+		}
 	}
 }
