@@ -17,11 +17,25 @@ public class Methods {
         return checker;
     }
 
+    // a recursive method or function is one that calls itself
+    
+    static int power(int base, int exponent ) {
+        if (exponent == 0) return 1;
+        else return (base * power(base, exponent - 1));
+    }
+
+    static int factorial(int num) {
+        if (num == 0 || num == 1) return 1;
+        else return (num * factorial(num - 1));
+    }
+
     public static void main(String[] args) {
         myMethod(1);
         System.out.println();
         System.out.println(checkAge(0));
-        
+
+        System.out.println(power(2, 2));
+        System.out.println(factorial(5));        
     }
 
 }
