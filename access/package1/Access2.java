@@ -11,6 +11,22 @@ public class Access2 {
     public double height = 170.2;
 
     //private
-    private int age = 23;
-    private String name = "Nkwi";
+    private int age;
+    private String name;
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(String name) {
+        this.name = name;
+    }
+    
+    public String getName() {
+        return name;
+    }
 }
