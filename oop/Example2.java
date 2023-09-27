@@ -21,6 +21,7 @@ public class Example2 implements Example3 {
 
     public static void main(String[] args) {
         Example2 e2 = new Example2();
+        
         e2.printName();
         e2.shout();
 
