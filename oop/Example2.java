@@ -21,9 +21,17 @@ public class Example2 implements Example3 {
 
     public static void main(String[] args) {
         Example2 e2 = new Example2();
-        
+
         e2.printName();
         e2.shout();
+
+        StringBuilder build = new StringBuilder();
+        build.append("Hello, I am ");
+        build.append("20 years old.");
+
+        String newString = build.toString();
+
+        System.out.println(newString);
 
     }
 
