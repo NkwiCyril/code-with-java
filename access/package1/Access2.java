@@ -22,7 +22,7 @@ public class Access2 {
         return age;
     }
 
-    public void setAge(String name) {
+    public void setName(String name) {
         this.name = name;
     }
     

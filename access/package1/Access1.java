@@ -10,6 +10,11 @@ public class Access1 {
         System.out.println(acc2.shoe);
         System.out.println(acc2.hair);
 
+        acc2.setAge(24);
+        acc2.setName("Nkwi Cyril");
+        System.out.println(acc2.getAge());
+        System.out.println(acc2.getName());
+
         // access attributes with public as access specifier
         System.out.println(acc2.location);
         System.out.println(acc2.height);
